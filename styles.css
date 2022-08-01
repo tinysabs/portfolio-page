@@ -12,7 +12,11 @@ html{
     font-weight: 400;
     font-size: 96px;
     line-height:178px;
-    color: white;
+    color: red;
+    text-align: center;
+    display:inline;
+    position:relative;
+    z-index: 1;
 }
 #header h3{
     font-family: 'Courier Prime';
@@ -20,4 +24,44 @@ html{
     font-weight: 400;
     font-size: 96px;
     line-height: 108px;
+    color:white;
+    text-align: center;
 }
+/* putting in cool shapes */
+#code-block{
+    height: 175px;
+    width: 547px;
+    left: 871px;
+    top: 148px;
+    border-radius: 0px;
+    background: #343434;
+}
+/* #flounder-block{
+    height: 178px;
+    width: 400px;
+    border-radius: 10% 19% 67% 60% / 29% 53% 34% 0% ;
+    background: #4E8EBE;
+} */
+/* #intro-block{
+    width: 1440px;
+    height: 473px;
+    viewBox
+    background: #FFA686;
+ } */
+#flounder-rec{
+    z-index: -1;
+    position: absolute;
+    left: 221px;
+    top: 57px;
+}
+#flounder-block text{
+    z-index: 1;
+    overflow: visible;
+    color:red;
+}
+#flounder-block h2{
+    position: absolute;
+    top:50%;
+    left:50%;
+}
+   
