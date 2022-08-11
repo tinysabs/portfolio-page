@@ -8,15 +8,19 @@ html{
     line-height: 42.19px;
 }
 #header h2{
+    width:50px;
     font-family:"La Belle Aurore";
+    fallback: "cursive";
     font-weight: 400;
     font-size: 96px;
     line-height:178px;
-    color: red;
+    color: white;
     text-align: center;
     display:inline;
-    /* position:relative; */
+    position:absolute;
     z-index: 1;
+    top: -90px;
+    left:30px;
 }
 #header h3{
     font-family: 'Courier Prime';
@@ -44,6 +48,7 @@ html{
 #flounder-block{
     position:relative;
     left:400px;
+    width:100px;
 }
 #code-block{
     height: 175px;
@@ -58,11 +63,13 @@ html{
 #header-first{
     position:relative;
     left: 300px;
+    width:50px;
 }
 #header-second{
     position:relative;
     left: 900px;
     top: -70px;
+    width:50px;
 }
 #code-block{
     position:relative;
@@ -72,6 +79,10 @@ html{
 
 #intro-block{
     position:relative;
+    width: 100%;
+    height:600px;
+    background-color: #FFA686;
+    border-radius:10px;
 }
 #intro-text{
     position:absolute;
@@ -97,4 +108,101 @@ html{
 #intro-button a:hover, a:active{
     background: #343434;
     color: white;
+}
+#projects{
+    font-size: 36px;
+    width:100%;
+    height:2500px;
+    background-color: #CDF7F6;
+    top: 100rem;
+}
+
+#projects-1{
+    position:absolute;
+    left: 20rem;
+}
+#projects-2{
+    position:absolute;
+    top: 100rem;
+    left:35rem;
+}
+#projects-2 img{
+    position:relative;
+    width:600px;
+    left:40rem;
+    bottom: 30rem;
+    border: 4px solid #4E8EBE;
+    border-radius: 10px;
+}
+#projects-2 img:hover{
+    border: 4px solid #FFA686;
+}
+#projects-3{
+    position:absolute;
+    top: 150rem;
+    left:35rem;
+}
+#projects-3 img{
+    position:relative;
+    width:500px;
+    left: 44rem;
+    border: 4px solid #4E8EBE;
+    bottom: 15rem;
+    border-radius: 10px;
+}
+#projects-4{
+    position:absolute;
+    top: 190rem;
+    left:20rem;
+}
+#projects-4 img{
+    position:relative;
+    width:250px;
+    left:40rem;
+    top: -20rem;
+    border: 4px solid #4E8EBE;
+    border-radius: 10px;
+}
+#projects-4 a{
+    text-decoration: none;
+    color:#4E8EBE;
+}
+#projects-4 img:hover{
+    border: 4px solid #FFA686;
+}
+#projects-5{
+    position:absolute;
+    top: 215rem;
+    left:25rem;
+}
+
+#extra{
+    background-color: #FDC5F5;
+    width:100%;
+    height:400px;
+    font-size: 36px;
+}
+#extra p{
+    position:relative;
+    top:1.5rem;
+    left:30rem;
+}
+#extra li{
+    font-weight: 300;
+}
+
+#extra ul{
+    list-style-type:"> ";
+   position:relative; 
+    left:50rem;
+    line-height: 5rem;
+}
+#extra i{
+    margin-right:50px;
+}
+#extra a:link{
+    text-decoration: none;
+}
+#extra a:hover{
+    color: #4E8EBE
 }
