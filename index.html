@@ -73,17 +73,24 @@
         <div id="contact">
             <h1>Ready to tell a story together?</h1>
             <div id="message">
-                <form action="mailto:sabrinap709@gmail.com" method="post" enctype="text/plain">
-                    Name: <input type='text' name="name"><br>
-                    Email: <input type="email" name="email" required><br>
-                    Message: <input type="text" name='message' required><br>
-                    <input type="reset" value="Cancel">
-                    <input type="submit" value="Send">
+                <form id="contact-form" action="mailto:sabrinap709@gmail.com" method="post" enctype="text/plain">
+                    <label>Name
+                     <input type='text' name="name" id="name-enter" placeholder="Sabs P">
+                    </label>
+                    <label>Email
+                        <input type="email" name="email" id="email-enter" placeholder="abc123@gmail.com" required>
+                    </label>
+                    <label>Message
+                        <input type="text" name='message' id="message-enter" placeholder="I'm interested in working with you!" required>
+                    </label>
+                    <input type="submit" value="Send" id="submit-button">
+                    <input type="reset" value="Cancel" id="cancel-button">
                 </form>
             </div>
             <p>
                 Or reach out to me on 
                 <a href="https://www.linkedin.com/in/sabrina-phan/">LinkedIn</a>
+                !
             </p>
         </div>
     </body>
